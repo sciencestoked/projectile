@@ -42,7 +42,7 @@ def projectile(u, angg):
 st.title('Projectile Motion Simulation')
 
 # Replace number_input with sliders
-u = st.slider('Select the velocity of the projectile (m/s)', min_value=0, max_value=100, value=10)
+u = st.slider('Select the velocity of the projectile (m/s)', min_value=0, max_value=30, value=10)
 a = st.slider('Select the angle of projection (degrees)', min_value=0, max_value=90, value=60)
 
 # Update the plot continuously
